@@ -1,0 +1,44 @@
+# Ignore node_modules and dependencies
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Ignore OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.swp
+*.swo
+
+# Ignore session and browser data
+.sessions/
+facebook_session/
+.actor/actor.json
+.actor/input_schema.json
+
+# Ignore storage and output directories
+storage/
+.temp/
+
+# Ignore environment files in production
+.env
+.env.local
+.env.*.local
+
+# Ignore test files
+test.js
+test*.js
+*.test.js
+
+# Ignore backup files
+*.bak
+*.backup
+*copy*
+main copy.js
+
+# Ignore git files
+.git
+.gitignore
+
+# Keep only the actual source code needed for the Actor

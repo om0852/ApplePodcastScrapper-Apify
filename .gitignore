@@ -1,0 +1,6 @@
+storage
+node_modules
+.venv
+.sessions
+.actor/input_schema.json
+temp_*.zip

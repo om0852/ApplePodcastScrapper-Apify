@@ -1,0 +1,7 @@
+{
+	"actorSpecification": 1,
+	"name": "Apple-PodCast-Scrapper",
+	"version": "1.0",
+	"buildTag": "latest",
+	"environmentVariables": {}
+}

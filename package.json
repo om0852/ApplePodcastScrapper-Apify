@@ -1,0 +1,25 @@
+{
+  "name": "facebook-mention-scrapper",
+  "version": "0.1.0",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["facebook", "scraper", "mentions"],
+  "author": "",
+  "license": "ISC",
+  "description": "Facebook mentions scraper for Apify",
+  "dependencies": {
+    "apify": "^3.5.2",
+    "crawlee": "^3.15.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "playwright": "^1.56.1",
+    "puppeteer": "^24.30.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "random-useragent": "^0.5.0"
+  }
+}
